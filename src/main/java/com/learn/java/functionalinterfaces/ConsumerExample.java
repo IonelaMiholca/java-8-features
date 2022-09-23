@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 
 /**
  * This class shows how you can use the java.util.function.Consumer functional interface
- * introduces in java 8
+ * introduced in java 8
  *
  * The abstract method from this interface performs an operation on the given argument.
  *
