@@ -46,11 +46,11 @@ public class ComparatorImplementation {
 
         //everything can be also written on a single line
         Comparator<Integer> comparator2 = (Integer o1, Integer o2) -> o1.compareTo(o2);
-        System.out.println("Result of comparison 2 with lambda is " + comparator1.compare(number1, number2));
+        System.out.println("Result of comparison 2 with lambda is " + comparator2.compare(number1, number2));
 
         //because the type of the comparator is Integer it is not needed to specify the type of parameters
         Comparator<Integer> comparator3 = (o1, o2) -> o1.compareTo(o2);
-        System.out.println("Result of comparison 3 with lambda is " + comparator1.compare(number1, number2));
+        System.out.println("Result of comparison 3 with lambda is " + comparator3.compare(number1, number2));
     }
     
 }
