@@ -3,7 +3,7 @@ package com.learn.java.functionalinterfaces;
 import java.util.function.Function;
 
 /**
- * This class shows how you can use the java.util.function.Consumer functional interface
+ * This class shows how you can use the java.util.function.Function functional interface
  * introduced in java 8
  * <p>
  * The abstract method from this interface performs an operation on the given argument.
